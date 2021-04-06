@@ -46,8 +46,8 @@ Below is the list in order of my favourites:
 ## Question tips and tricks
 * The exam tricks you by deliberately asking a question that spans several paragraph
 * Always copy and paste text from questions to your termial using copy button provided in the question
-* Do not miss the important things like namespace (which may or may not exist)
-* Confirm if the questionis asking you to first generate a yaml file at a desired location or directly run the pod/deployment
+* Do not miss the important resources in question like namespace, pods etc. which may or may not exist and accordingly solve
+* Confirm if the question is asking you to first generate a yaml file at a desired location or directly run the pod/deployment
 * Try completing first 10 questions in 50 mins so that you have time to handle big ones
 * Always copy and switch to teh correct context before attempting the question, the context is mentioned on the top of every question
 * One question could be that create a pod that runs every 22 seconds and prints date, now here you may think that it is cronjob, but you cannot solve using cronjob since it does not support seconds, so the answer is to create a normal pod with following shell script ->
