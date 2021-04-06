@@ -9,9 +9,9 @@ Here is what I did to pass the exam!
 ## General exam format
 * This is a hands on exam on live Kubernetes cluster
 * It has 19 questions to solve in 2 hours, so roughly 6.3 minutes per question is all you got
-* You are advised to take the exam from a quite place with good internet connection, mostly home is best 
+* You are advised to take the exam from a quite place with good internet connection, IMO home is best 
 * Join the exam 15 mins before the time
-* Keep your identity proff ready and your table clean of unneccessary things
+* Keep your identity proof ready and your table clean of unneccessary things
 
 ## Time is your enemy
 * Ensure you have the best available bandwidth, expect a slight delay/lag on the clusters speacially if you are taking exam from locations like India 
