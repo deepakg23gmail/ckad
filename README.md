@@ -22,6 +22,8 @@ Here is what I did to pass the exam!
   For example -
   k get po -A # list all pods in all namespaces
   k run test --image=nginx --restart=Never -- /bin/sh -c env # to run a pod and echo env on stdout
+* If you need to delete a pod, then use force flag in order to save time, else deleting pods may take few seconds of your precious time and you will be sitting and waiting at the terminal doing nothing:
+  k delete po <podname> --grace-period=o --force
 * Get very comfortable navigating the bookmarks that I provided
 
 ## Training
@@ -50,6 +52,10 @@ Below is the list in order of my favourites:
 * Confirm if the question is asking you to first generate a yaml file at a desired location or directly run the pod/deployment
 * Try completing first 10 questions in 50 mins so that you have time to handle big ones
 * Always copy and switch to teh correct context before attempting the question, the context is mentioned on the top of every question
+* Where ever possible try to do a quick check to confirm if you solved the question correctly
+  For example if you created a NodePort service that exposes a deployment then you can verify quickly by following commands -
+  k get po - wide # pod name for the deployment along with its IP Address
+  k describe svc <service name> # check if the endpoints are configured with IP Addresses of the pod corresponding to the deployment
 * One question could be that create a pod that runs every 22 seconds and prints date, now here you may think that it is cronjob, but you cannot solve using cronjob since it does not support seconds, so the answer is to create a normal pod with following shell script ->
   #!/bin/sh
    while true
