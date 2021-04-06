@@ -33,13 +33,13 @@ Below is the list in order of my favourites:
 * https://github.com/bbachi/CKAD-Practice-Questions
 
 ## Gain expertise on basic vi/vim editor commands
-* vi to open a file and wq to save and quit
+* vi to open a file and 'wq' to save and quit
 * search text by typimg : followed by line number on esc mode
 * copy text section in esc mode and then go to insert mode to paste it in relevant section
-* dd in esc mode to delete a line
-* u in esc mode to undo the lat edit
-* o to insert characters in next line
-* i to insert in the same place
+* 'dd' in esc mode to delete a line
+* 'u' in esc mode to undo the lat edit
+* 'o' to insert characters in next line
+* 'i' to insert in the same place
 * While in insert mode, navigate to front of text by typing '0' and back of text by typing 'e'
 * Don't worry about beautifying yaml indentation, you dont get marks for perfact indentation, just make it working
 
