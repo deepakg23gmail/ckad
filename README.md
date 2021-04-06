@@ -1,9 +1,9 @@
 # ckad
 Here is what I did to pass the exam!
 
-# Todo
-* Import the bookmark to your chrome and get comfortable by clicking each section to find relevant code snippets etc.
-* Read next section
+# First things first
+* Import the bookmark to your chrome and get comfortable by clicking each section to find relevant code snippets etc. The file is located with the name kubernetes.io.html in the repo
+
 
 # Nuggets
 ## General exam format
