@@ -40,6 +40,7 @@ Below is the list in order of my favourites:
 * u in esc mode to undo the lat edit
 * o to insert characters in next line
 * i to insert in the same place
+* While in insert mode, navigate to front of text by typing '0' and back of text by typing 'e'
 * Don't worry about beautifying yaml indentation, you dont get marks for perfact indentation, just make it working
 
 ## Question tips and tricks
