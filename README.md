@@ -23,7 +23,7 @@ Here is what I did to pass the exam!
   k get po -A # list all pods in all namespaces
   k run test --image=nginx --restart=Never -- /bin/sh -c env # to run a pod and echo env on stdout
 * If you need to delete a pod, then use force flag in order to save time, else deleting pods may take few seconds of your precious time and you will be sitting and waiting at the terminal doing nothing:
-  k delete po <podname> --grace-period=o --force
+  k delete po <podname> --grace-period=0 --force
 * Get very comfortable navigating the bookmarks that I provided
 
 ## Training
