@@ -2,7 +2,7 @@
 Here is what I did to pass the exam!
 
 # First things first
-* Import the bookmark to your chrome and get comfortable by clicking each section to find relevant code snippets etc. The file is located with the name kubernetes.io.html in the repo
+* Import the bookmark to your chrome browser and get comfortable by clicking each section to find relevant code snippets etc. The file is located with the name kubernetes.io.html in the repo
 
 
 # Nuggets
