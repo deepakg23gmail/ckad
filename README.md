@@ -47,11 +47,11 @@ Below is the list in order of my favourites:
 
 ## Question tips and tricks
 * The exam tricks you by deliberately asking a question that spans several paragraph
-* Always copy and paste text from questions to your termial using copy button provided in the question
+* Always copy and paste text from questions to your terminal using copy button provided in the question
 * Do not miss the important resources in question like namespace, pods etc. which may or may not exist and accordingly solve
 * Confirm if the question is asking you to first generate a yaml file at a desired location or directly run the pod/deployment
 * Try completing first 10 questions in 50 mins so that you have time to handle big ones
-* Always copy and switch to teh correct context before attempting the question, the context is mentioned on the top of every question
+* Always copy and switch to the correct context before attempting the question, the context is mentioned on the top of every question
 * Where ever possible try to do a quick check to confirm if you solved the question correctly
   For example if you created a NodePort service that exposes a deployment then you can verify quickly by following commands -
   k get po - wide # pod name for the deployment along with its IP Address
