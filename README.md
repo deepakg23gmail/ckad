@@ -47,7 +47,7 @@ Below is the list in order of my favourites:
 * Don't worry about beautifying yaml indentation, you dont get marks for perfact indentation, just make it working
 
 ## Question tips and tricks
-* The exam tricks you by deliberately asking a question that spans several paragraph
+* The exam tricks you by deliberately asking a question that spans several paragraph, learn to quickly grasp the gist
 * Always copy and paste text from questions to your terminal using copy button provided in the question
 * Do not miss the important resources in question like namespace, pods etc. which may or may not exist and accordingly solve
 * Confirm if the question is asking you to first generate a yaml file at a desired location or directly run the pod/deployment
