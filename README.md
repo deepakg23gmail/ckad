@@ -56,9 +56,3 @@ Below is the list in order of my favourites:
   For example if you created a NodePort service that exposes a deployment then you can verify quickly by following commands -
   k get po - wide # pod name for the deployment along with its IP Address
   k describe svc <service name> # check if the endpoints are configured with IP Addresses of the pod corresponding to the deployment
-* One question could be that create a pod that runs every 22 seconds and prints date, now here you may think that it is cronjob, but you cannot solve using cronjob since it does not support seconds, so the answer is to create a normal pod with following shell script ->
-  #!/bin/sh
-   while true
-   do
-    date;
-   done; 
