@@ -28,6 +28,7 @@ Here is what I did to pass the exam!
 
 ## Training
 https://www.udemy.com/course/certified-kubernetes-application-developer/
+The course offers mock tests which you must do several times until you become super comfortable completing them.
 
 ## Attempt mock test provided by other contributors
 Below is the list in order of my favourites:
